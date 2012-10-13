@@ -1,0 +1,3 @@
+[submodule "Vendors/KIF-Mac"]
+	path = Vendors/KIF-Mac
+	url = https://github.com/joshaber/KIF.git

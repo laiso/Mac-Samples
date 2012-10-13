@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071DF47316298CB6007A7BE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 079D0ACB162981DE000FBA0B /* main.m */; };
+		071DF47416298CB6007A7BE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 079D0AD2162981DE000FBA0B /* AppDelegate.m */; };
+		071DF47516298CB6007A7BE5 /* KMTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071DF45A1629847A007A7BE5 /* KMTestController.m */; };
+		071DF47616298CB6007A7BE5 /* KIFTestScenario+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071DF45D16298518007A7BE5 /* KIFTestScenario+Additions.m */; };
+		071DF47816298CB6007A7BE5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079D0ABF162981DE000FBA0B /* Cocoa.framework */; };
+		071DF47A16298CB6007A7BE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 079D0AC8162981DE000FBA0B /* InfoPlist.strings */; };
+		071DF47B16298CB6007A7BE5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 079D0ACE162981DE000FBA0B /* Credits.rtf */; };
+		071DF47C16298CB6007A7BE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 079D0AD4162981DE000FBA0B /* MainMenu.xib */; };
+		079D0AC0162981DE000FBA0B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079D0ABF162981DE000FBA0B /* Cocoa.framework */; };
+		079D0ACA162981DE000FBA0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 079D0AC8162981DE000FBA0B /* InfoPlist.strings */; };
+		079D0ACC162981DE000FBA0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 079D0ACB162981DE000FBA0B /* main.m */; };
+		079D0AD0162981DE000FBA0B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 079D0ACE162981DE000FBA0B /* Credits.rtf */; };
+		079D0AD3162981DE000FBA0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 079D0AD2162981DE000FBA0B /* AppDelegate.m */; };
+		079D0AD6162981DE000FBA0B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 079D0AD4162981DE000FBA0B /* MainMenu.xib */; };
+		07EE415A16299CCF005440D2 /* KIF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EE415716299692005440D2 /* KIF.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07EE415416299692005440D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07EE414C16299692005440D2 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AAB07268139719AC008AF393;
+			remoteInfo = KIFTouch;
+		};
+		07EE415616299692005440D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07EE414C16299692005440D2 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88B1782E13DB86AB006FF184;
+			remoteInfo = KIFMac;
+		};
+		07EE415816299CC8005440D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07EE414C16299692005440D2 /* KIF.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B1782D13DB86AB006FF184;
+			remoteInfo = KIFMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071DF4591629847A007A7BE5 /* KMTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTestController.h; sourceTree = "<group>"; };
+		071DF45A1629847A007A7BE5 /* KMTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTestController.m; sourceTree = "<group>"; };
+		071DF45C16298518007A7BE5 /* KIFTestScenario+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestScenario+Additions.h"; sourceTree = "<group>"; };
+		071DF45D16298518007A7BE5 /* KIFTestScenario+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestScenario+Additions.m"; sourceTree = "<group>"; };
+		071DF48016298CB6007A7BE5 /* KIFMac01IntegeRationTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFMac01IntegeRationTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		071DF48216298CB7007A7BE5 /* IntegeRationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IntegeRationTests-Info.plist"; path = "/Users/kstg/workspace/Mac-Sample/KIFMac01/IntegeRationTests-Info.plist"; sourceTree = "<absolute>"; };
+		071DF49516298FED007A7BE5 /* KIFMac01 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "KIFMac01 copy-Info.plist"; path = "/Users/kstg/workspace/Mac-Sample/KIFMac01/KIFMac01 copy-Info.plist"; sourceTree = "<absolute>"; };
+		071DF4AF16299057007A7BE5 /* KIFMac01 copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "KIFMac01 copy2-Info.plist"; path = "/Users/kstg/workspace/Mac-Sample/KIFMac01/KIFMac01 copy2-Info.plist"; sourceTree = "<absolute>"; };
+		079D0ABB162981DE000FBA0B /* KIFMac01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFMac01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		079D0ABF162981DE000FBA0B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		079D0AC2162981DE000FBA0B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		079D0AC3162981DE000FBA0B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		079D0AC4162981DE000FBA0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		079D0AC7162981DE000FBA0B /* KIFMac01-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KIFMac01-Info.plist"; sourceTree = "<group>"; };
+		079D0AC9162981DE000FBA0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		079D0ACB162981DE000FBA0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		079D0ACD162981DE000FBA0B /* KIFMac01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KIFMac01-Prefix.pch"; sourceTree = "<group>"; };
+		079D0ACF162981DE000FBA0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		079D0AD1162981DE000FBA0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		079D0AD2162981DE000FBA0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		079D0AD5162981DE000FBA0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		07EE414C16299692005440D2 /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = "Vendors/KIF-Mac/KIF.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		071DF47716298CB6007A7BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EE415A16299CCF005440D2 /* KIF.framework in Frameworks */,
+				071DF47816298CB6007A7BE5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079D0AB8162981DE000FBA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079D0AC0162981DE000FBA0B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079D0AB0162981DE000FBA0B = {
+			isa = PBXGroup;
+			children = (
+				07EE414C16299692005440D2 /* KIF.xcodeproj */,
+				079D0AC5162981DE000FBA0B /* KIFMac01 */,
+				079D0ABE162981DE000FBA0B /* Frameworks */,
+				079D0ABC162981DE000FBA0B /* Products */,
+				071DF48216298CB7007A7BE5 /* IntegeRationTests-Info.plist */,
+				071DF49516298FED007A7BE5 /* KIFMac01 copy-Info.plist */,
+				071DF4AF16299057007A7BE5 /* KIFMac01 copy2-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		079D0ABC162981DE000FBA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079D0ABB162981DE000FBA0B /* KIFMac01.app */,
+				071DF48016298CB6007A7BE5 /* KIFMac01IntegeRationTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079D0ABE162981DE000FBA0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				079D0ABF162981DE000FBA0B /* Cocoa.framework */,
+				079D0AC1162981DE000FBA0B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		079D0AC1162981DE000FBA0B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				079D0AC2162981DE000FBA0B /* AppKit.framework */,
+				079D0AC3162981DE000FBA0B /* CoreData.framework */,
+				079D0AC4162981DE000FBA0B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		079D0AC5162981DE000FBA0B /* KIFMac01 */ = {
+			isa = PBXGroup;
+			children = (
+				079D0AD1162981DE000FBA0B /* AppDelegate.h */,
+				079D0AD2162981DE000FBA0B /* AppDelegate.m */,
+				079D0AD4162981DE000FBA0B /* MainMenu.xib */,
+				079D0AC6162981DE000FBA0B /* Supporting Files */,
+				071DF4591629847A007A7BE5 /* KMTestController.h */,
+				071DF45A1629847A007A7BE5 /* KMTestController.m */,
+				071DF45C16298518007A7BE5 /* KIFTestScenario+Additions.h */,
+				071DF45D16298518007A7BE5 /* KIFTestScenario+Additions.m */,
+			);
+			path = KIFMac01;
+			sourceTree = "<group>";
+		};
+		079D0AC6162981DE000FBA0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				079D0AC7162981DE000FBA0B /* KIFMac01-Info.plist */,
+				079D0AC8162981DE000FBA0B /* InfoPlist.strings */,
+				079D0ACB162981DE000FBA0B /* main.m */,
+				079D0ACD162981DE000FBA0B /* KIFMac01-Prefix.pch */,
+				079D0ACE162981DE000FBA0B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07EE414D16299692005440D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07EE415516299692005440D2 /* libKIF.a */,
+				07EE415716299692005440D2 /* KIF.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071DF47116298CB6007A7BE5 /* Integration Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 071DF47D16298CB6007A7BE5 /* Build configuration list for PBXNativeTarget "Integration Tests" */;
+			buildPhases = (
+				071DF47216298CB6007A7BE5 /* Sources */,
+				071DF47716298CB6007A7BE5 /* Frameworks */,
+				071DF47916298CB6007A7BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07EE415916299CC8005440D2 /* PBXTargetDependency */,
+			);
+			name = "Integration Tests";
+			productName = KIFMac01;
+			productReference = 071DF48016298CB6007A7BE5 /* KIFMac01IntegeRationTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		079D0ABA162981DE000FBA0B /* KIFMac01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079D0AD9162981DE000FBA0B /* Build configuration list for PBXNativeTarget "KIFMac01" */;
+			buildPhases = (
+				079D0AB7162981DE000FBA0B /* Sources */,
+				079D0AB8162981DE000FBA0B /* Frameworks */,
+				079D0AB9162981DE000FBA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIFMac01;
+			productName = KIFMac01;
+			productReference = 079D0ABB162981DE000FBA0B /* KIFMac01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079D0AB2162981DE000FBA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = laiso;
+			};
+			buildConfigurationList = 079D0AB5162981DE000FBA0B /* Build configuration list for PBXProject "KIFMac01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 079D0AB0162981DE000FBA0B;
+			productRefGroup = 079D0ABC162981DE000FBA0B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 07EE414D16299692005440D2 /* Products */;
+					ProjectRef = 07EE414C16299692005440D2 /* KIF.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				079D0ABA162981DE000FBA0B /* KIFMac01 */,
+				071DF47116298CB6007A7BE5 /* Integration Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		07EE415516299692005440D2 /* libKIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			name = libKIF.a;
+			path = libKIFTouch.a;
+			remoteRef = 07EE415416299692005440D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07EE415716299692005440D2 /* KIF.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KIF.framework;
+			remoteRef = 07EE415616299692005440D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		071DF47916298CB6007A7BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071DF47A16298CB6007A7BE5 /* InfoPlist.strings in Resources */,
+				071DF47B16298CB6007A7BE5 /* Credits.rtf in Resources */,
+				071DF47C16298CB6007A7BE5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079D0AB9162981DE000FBA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079D0ACA162981DE000FBA0B /* InfoPlist.strings in Resources */,
+				079D0AD0162981DE000FBA0B /* Credits.rtf in Resources */,
+				079D0AD6162981DE000FBA0B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		071DF47216298CB6007A7BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071DF47316298CB6007A7BE5 /* main.m in Sources */,
+				071DF47416298CB6007A7BE5 /* AppDelegate.m in Sources */,
+				071DF47516298CB6007A7BE5 /* KMTestController.m in Sources */,
+				071DF47616298CB6007A7BE5 /* KIFTestScenario+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079D0AB7162981DE000FBA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079D0ACC162981DE000FBA0B /* main.m in Sources */,
+				079D0AD3162981DE000FBA0B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07EE415916299CC8005440D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KIFMac;
+			targetProxy = 07EE415816299CC8005440D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		079D0AC8162981DE000FBA0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079D0AC9162981DE000FBA0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		079D0ACE162981DE000FBA0B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079D0ACF162981DE000FBA0B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		079D0AD4162981DE000FBA0B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079D0AD5162981DE000FBA0B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		071DF47E16298CB6007A7BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIFMac01/KIFMac01-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "RUN_KIF_TESTS=1";
+				INFOPLIST_FILE = "IntegeRationTests-Info.plist";
+				PRODUCT_NAME = KIFMac01IntegeRationTests;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		071DF47F16298CB6007A7BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIFMac01/KIFMac01-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "RUN_KIF_TESTS=1";
+				INFOPLIST_FILE = "IntegeRationTests-Info.plist";
+				PRODUCT_NAME = KIFMac01IntegeRationTests;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		079D0AD7162981DE000FBA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		079D0AD8162981DE000FBA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		079D0ADA162981DE000FBA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIFMac01/KIFMac01-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "KIFMac01/KIFMac01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		079D0ADB162981DE000FBA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KIFMac01/KIFMac01-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "KIFMac01/KIFMac01-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		071DF47D16298CB6007A7BE5 /* Build configuration list for PBXNativeTarget "Integration Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				071DF47E16298CB6007A7BE5 /* Debug */,
+				071DF47F16298CB6007A7BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079D0AB5162981DE000FBA0B /* Build configuration list for PBXProject "KIFMac01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079D0AD7162981DE000FBA0B /* Debug */,
+				079D0AD8162981DE000FBA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079D0AD9162981DE000FBA0B /* Build configuration list for PBXNativeTarget "KIFMac01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079D0ADA162981DE000FBA0B /* Debug */,
+				079D0ADB162981DE000FBA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079D0AB2162981DE000FBA0B /* Project object */;
+}
